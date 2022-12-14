@@ -9,4 +9,8 @@ async function getBuscarLivros() {
     let  livrosComDesconto = aplicarDesconto(livros)
 
     exibirLivros(livrosComDesconto)
+    
+    console.log(livros)
 }
+
+
